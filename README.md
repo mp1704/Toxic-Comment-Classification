@@ -1,5 +1,5 @@
 # Toxic-Comment-Classification
-
+**NOTE:** Since I run this code on my local PC, i need to reduce `batch_size` and `max_sequence_length`
 ## downloading dataset
 ```
 mkdir dataset
@@ -11,3 +11,6 @@ unzip -q train.csv.zip
 
 
 ## todo
+- add scheduler to optimizer
+- train with bigger batch_size, full dataset
+- inference
