@@ -8,7 +8,10 @@ unzip -q jigsaw-toxic-comment-classification-challenge.zip
 unzip -q train.csv.zip
 ```
 ## folder structure
-
+- `download_tokenizer_model.ipynb`: use this one to save pretrained on my pc
+- `prepare_data.ipynb`: use this one to preprocess data and export to a new data
+- `utils.py`: helper function
+- `train.py`: training
 
 ## todo
 - add scheduler to optimizer
