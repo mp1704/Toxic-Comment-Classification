@@ -1,0 +1,4 @@
+kaggle
+torch
+skicit-learn
+transformers
