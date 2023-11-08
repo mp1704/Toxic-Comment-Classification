@@ -3,6 +3,7 @@
 ## downloading dataset
 ```
 mkdir dataset
+cd dataset
 kaggle competitions download -c jigsaw-toxic-comment-classification-challenge
 unzip -q jigsaw-toxic-comment-classification-challenge.zip
 unzip -q train.csv.zip
