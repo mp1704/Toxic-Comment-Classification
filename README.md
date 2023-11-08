@@ -12,8 +12,8 @@ unzip -q train.csv.zip
 - `prepare_data.ipynb`: use this one to preprocess data and export to a new data
 - `utils.py`: helper function
 - `train.py`: training
-- './bert/': where I saved both tokenizer and model
-- 'dataset/': data here
+- `./bert/`: where I saved both tokenizer and model
+- `dataset/`: data here
 ## todo
 - add scheduler to optimizer
 - train with bigger batch_size, full dataset
